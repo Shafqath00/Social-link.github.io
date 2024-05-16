@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.contianer {
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 2.5rem;
+    width: 350px;
+}
+
+.box-items {
+    text-align: center;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.name-place {
+    margin: 10px;
+}
+
+.name-place h1 {
+    font-weight: 600;
+    color: white;
+}
+
+.name-place p {
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin: 5px 0;
+    font-size: 11px;
+}
+
+.buts p {
+    color: white;
+    font-weight: 400;
+    font-size: small;
+}
+
+.buts ul li {
+    margin-top: 15px;
+    list-style-type: none;
+    width: 100%;
+}
+
+.buts ul li a {
+    color: white;
+    border: 1px;
+    background-color: hsl(0, 0%, 20%);
+    display: grid;
+    padding: 0.7rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.buts ul li a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
